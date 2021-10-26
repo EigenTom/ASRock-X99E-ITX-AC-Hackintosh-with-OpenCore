@@ -1,4 +1,4 @@
-# Asus-X99-E-WS-Hackintosh-with-OpenCore
+# ASRock-X99E-ITX/AC-Hackintosh-with-OpenCore
 
 [![macOS](https://img.shields.io/badge/macOS-Catalina-yellow.svg)](https://www.apple.com/macos/catalina/)
 [![version](https://img.shields.io/badge/10.15.6-yellow)](https://support.apple.com/en-us/HT210642)
@@ -14,7 +14,7 @@ OpenCore 0.6.6 Configurations for ASRock X99E-ITX/AC MotherBoard macOS Catalina 
 
 <center>
 
- [The result of this patch (Without E5 V3 Boost Patch):](https://browser.geekbench.com/v5/cpu/6670284)
+ [The result of this patch (Without E5 V3 Boost Patch):](https://browser.geekbench.com/v5/cpu/10608364)
 
 GeekBench5 Score: Single `847`, Multi-Core `6439`. 
 
