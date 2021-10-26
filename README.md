@@ -3,14 +3,14 @@
 [![macOS](https://img.shields.io/badge/macOS-Catalina-yellow.svg)](https://www.apple.com/macos/catalina/)
 [![version](https://img.shields.io/badge/10.15.6-yellow)](https://support.apple.com/en-us/HT210642)
 [![BIOS](https://img.shields.io/badge/BIOS-3502-blue)]()
-[![MODEL](https://img.shields.io/badge/X99-E_WS-blue)](https://www.asus.com/tw/Motherboards/X99E_WS/)
+[![MODEL](https://img.shields.io/badge/X99E-ITX_A/C-blue)](https://www.asus.com/tw/Motherboards/X99E_WS/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-green)](https://github.com/acidanthera/OpenCorePkg)
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)]()
 
 OpenCore 0.6.6 Configurations for ASRock X99E-ITX/AC MotherBoard macOS Catalina Hackintosh
 
 
-![20211026120703](https://cdn.jsdelivr.net/gh/KirisameR/KirisameR.github.io/img/blogpost_images/20211026120703.png)
+![](./readme.png)
 
 <center>
 
@@ -48,7 +48,7 @@ My X99 Workstation configurations:
 
 | Processor Number                                                                                                                   | # of Cores | # of Threads | Base Frequency | Max Turbo Frequency | Cache | Memory Types | Graphics      |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
-| [Xeon E5 2695 v3 ES (QFQG)](https://ark.intel.com/content/www/us/en/ark/products/81057/intel-xeon-processor-e5-2695-v3-35m-cache-2-30-ghz.html) | `14`          | `28`            | `2.3 GHz`        | `3.5 GHz`             | `35 MB`  | `DDR4-2133`  | `XFX HD7970 3GB` |
+| [Xeon E5 2695 v3 ES (QFQG)](https://ark.intel.com/content/www/us/en/ark/products/81057/intel-xeon-processor-e5-2695-v3-35m-cache-2-30-ghz.html) | `14`          | `28`            | `2.3 GHz`        | `3.5 GHz`             | `35 MB`  | `DDR4-2133`  | `XFX HD7770 1GB` |
 
 Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore. 
 
