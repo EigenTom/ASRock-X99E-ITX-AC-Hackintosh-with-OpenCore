@@ -63,6 +63,15 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 
 >## BIOS Settings Modifications
 ```
++ Advanced
+- CPU Configuration
+* Intel Virtualization Technology: ENABLED
+* CPU C3 State Support: ENANBLED
+* CPU C6 State Support: ENANBED
+- Chipset Configuration
+* VT-d: ENABLED
+* Above 4G Decoding: ENABLED
+* Above 4G Decoding Patch: ENABLED
 
 ```
 
