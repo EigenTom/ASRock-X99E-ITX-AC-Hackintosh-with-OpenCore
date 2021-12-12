@@ -2,8 +2,8 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Catalina-yellow.svg)](https://www.apple.com/macos/catalina/)
 [![version](https://img.shields.io/badge/10.15.6-yellow)](https://support.apple.com/en-us/HT210642)
-[![BIOS](https://img.shields.io/badge/BIOS-3502-blue)]()
-[![MODEL](https://img.shields.io/badge/X99E-ITX_A/C-blue)](https://www.asus.com/tw/Motherboards/X99E_WS/)
+[![BIOS](https://img.shields.io/badge/BIOS-3.60-blue)]()
+[![MODEL](https://img.shields.io/badge/X99E-ITX_A/C-blue)](http://www.asrock.com/MB/Intel/X99E-ITXac)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-green)](https://github.com/acidanthera/OpenCorePkg)
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)]()
 
@@ -48,9 +48,9 @@ My X99 Workstation configurations:
 
 | Processor Number                                                                                                                   | # of Cores | # of Threads | Base Frequency | Max Turbo Frequency | Cache | Memory Types | Graphics      |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
-| [Xeon E5 2695 v3 ES (QFQG)](https://ark.intel.com/content/www/us/en/ark/products/81057/intel-xeon-processor-e5-2695-v3-35m-cache-2-30-ghz.html) | `14`          | `28`            | `2.3 GHz`        | `3.5 GHz`             | `35 MB`  | `DDR4-2133`  | `XFX HD7770 1GB` |
+| [Xeon E5 2695 v3 ES (QFQG)](https://ark.intel.com/content/www/us/en/ark/products/81057/intel-xeon-processor-e5-2695-v3-35m-cache-2-30-ghz.html) | `14`          | `28`            | `2.3 GHz`        | `3.5 GHz`             | `35 MB`  | `DDR4-2133`  | `XFX HD7770 Black 2GB` |
 
-Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore. 
+Note: Older dGPUs like HD7xxx Series may needs vBIOS with UEFI Support to work with OpenCore. 
 
 **Peripherals:**
 
@@ -74,6 +74,7 @@ Note: Older dGPUs needs vIOS with UEFI Support to work with OpenCore.
 * Above 4G Decoding Patch: ENABLED
 
 ```
+
 
 <br>
 
@@ -136,7 +137,7 @@ To use your iPad as a secondary display on hackintoshes based on X99 platform:
 - [`AppleUSBXHCI` Error Fix](https://www.tonymacx86.com/threads/how-to-extend-the-imac-pro-to-x99-successful-build-extended-guide.227001/page-86)
 - [X99 Platform Hackintosh Guide (!Chinese)](https://www.chiphell.com/thread-2174588-1-1.html)
 - [AMD dGPU vBIOS Patch Guide](http://forum.netkas.org/index.php/topic,5619.0.html)
-- [`HD7970` UEFI vBIOS Patch Guide (!Chinese)](https://bbs.nga.cn/read.php?tid=18588213&rand=628)
+- [`HD7xxx` UEFI vBIOS Patch Guide (!Chinese)](https://bbs.nga.cn/read.php?tid=18588213&rand=628)
 - [AMD dGPU vBIOS Flash Guide (!Chinese)](https://www.chiphell.com/thread-347172-1-1.html)
 - [Hibernation Fix (1)](https://pikeralpha.wordpress.com/2017/01/12/debugging-sleep-issues/)
 - [Hibernation Fix (2)](https://www.tonymacx86.com/threads/how-to-extend-the-imac-pro-to-x99-successful-build-extended-guide.227001/)
